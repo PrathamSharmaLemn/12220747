@@ -1,0 +1,31 @@
+{
+  "name": "backendsubmission",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "url-shortener",
+    "express",
+    "nodejs",
+    "rest-api"
+  ],
+  "author": "Pratham Sharma <prathamsharma7977@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "logging-middleware": "file:../LoggingMiddleware",
+    "node-fetch": "^2.6.7",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "jest": "^30.0.4"
+  }
+}
